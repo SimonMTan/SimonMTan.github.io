@@ -72,6 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* implemented css  */
 .inner-wrapper{
 	display: flex;
 	justify-content: center;
@@ -91,6 +92,42 @@ input, select, textarea {
 	align-items: center;
 	/* margin-top: 2.5em; */
 	padding-top: 2.5em;
+}
+
+.image{
+	position: relative;
+	overflow: hidden;
+}
+
+.image:hover .tryout{
+	bottom:0;
+	outline: none;
+}
+
+.tryout{
+	display: flex;
+	position: absolute;
+	background:  rgba(0, 0, 0, 0.6);
+	width:100%;
+	height:100%;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	flex-direction: row;
+	transition: 0.2s;
+	bottom:-100%
+
+}
+.tryout a{
+	font-size: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.tryout a:hover{
+	background:#ED4933 ;
 }
 
 /* Basic */
