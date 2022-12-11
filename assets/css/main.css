@@ -2054,10 +2054,10 @@ input, select, textarea {
 			border: solid 2px #fff;
 			display: inline-block;
 			font-size: 1.35em;
-			height: calc(3em + 2px);
+			height: calc(3em + 20px);
 			line-height: 3em;
 			text-align: center;
-			width: calc(3em + 2px);
+			width: calc(3em + 20px);
 		}
 
 			.icon.major:before {
@@ -2094,7 +2094,13 @@ input, select, textarea {
 	display: inline-block;
 		transform: rotate(45deg);
 		-webkit-transform: rotate(45deg);
-		font-size: 65px;
+		font-size: 60px;
+		margin-top: 10px;
+		margin-left: 10px;
+}
+
+.devicon-javascript-plain{
+
 }
 
 /* Image */
