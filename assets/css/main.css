@@ -2095,13 +2095,13 @@ input, select, textarea {
 		transform: rotate(45deg);
 		-webkit-transform: rotate(45deg);
 		font-size: 60px;
-		margin-top: 10px;
-		margin-left: 10px;
+		margin-top: 15px;
+		margin-left: 5px;
 }
 
-.devicon-javascript-plain{
-	font-size: 45px;
-}
+/* .devicon-javascript-plain{
+	padding-top:3px;
+} */
 
 /* Image */
 
